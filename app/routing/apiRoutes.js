@@ -34,6 +34,7 @@ var bestfriend = {name:"",photo:""};
         if(diff < bestdiff ){
           bestfriend.name = friendData[j].name;
           bestfriend.photo = friendData[j].photo;
+          bestdiff=diff;
           
         }
         

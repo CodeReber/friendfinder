@@ -1,6 +1,6 @@
 var friends = [{
     "name":"Ahmed",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"https://nyppagesix.files.wordpress.com/2019/04/kim-kardashian-lori-loughlin.jpg?quality=90&strip=all&w=618&h=410&crop=1",
     "scores":[
         5,
         1,
@@ -16,7 +16,7 @@ var friends = [{
   },
 {
   "name":"Jim",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "photo":"https://nyppagesix.files.wordpress.com/2019/04/kim-kardashian-lori-loughlin.jpg?quality=90&strip=all&w=618&h=410&crop=1",
   "scores":[
       6, 
       1,
