@@ -7,7 +7,10 @@ app.get("/api/friends", function(req, res) {
   })
 
   app.post("/api/friends", function(req, res) {
- var newFriend = req.body;
+ var userData = req.body;
+ console.log(userData)
+ friendData.push(userData);
+//  res.json(bestfriend);newFriend
 
 
 
@@ -24,7 +27,7 @@ var bestfriend = {name:"",photo:""};
       
 
         for (var i = 0; i < friendData[j].scores.length; i++){
-      diff += Math.abs(parseInt(newFriend.scores[i]) - parseInt(friendData[j].scores[i]));
+      diff += Math.abs(parseInt(userData.scores[i]) - parseInt(friendData[j].scores[i]));
         }
       //  console.log(diff);
       //  console.log(bestdiff);
@@ -36,10 +39,7 @@ var bestfriend = {name:"",photo:""};
         }
         
     }
-     console.log(newFriend)
- friendData.push(newFriend);
- res.json(bestfriend);
-
+    
    //push newfriend to the friend data array "this is you friends.js array" 
    //send best friend as json to the client
    //(on the client side so not on this file lol use the json to populate the popup)
@@ -47,3 +47,8 @@ var bestfriend = {name:"",photo:""};
     console.log(bestfriend);
   })
 }
+  
+
+
+
+
